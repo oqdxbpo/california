@@ -31,4 +31,13 @@
 	background-image: url(../images/3rd_section_background.jpg);
 }
 
+/* セクション４の設定 ---------------------------------------------------*/
+#sec4{
+	background-image: url(../images/4th_section_background.jpg);
+}
+
+/* セクション５の設定 ---------------------------------------------------*/
+#sec5{
+	background-image: url(../images/5th_section_background.jpg);
+}
 
