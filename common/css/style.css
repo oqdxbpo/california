@@ -5,15 +5,19 @@
 	padding: 0;
 }
 
+body {background-color:#000000}
+
 /* セクション全体の設定 ---------------------------------------------------*/
 /* Centered texts in each section*/
-.section{
+/* .section{
 	text-align:center;
-}
+} */
 
-/* Backgrounds will cover all the section*/
+/* 背景画像の位置設定*/
 .section{
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 /* セクション１の設定 ---------------------------------------------------*/
@@ -39,5 +43,15 @@
 /* セクション５の設定 ---------------------------------------------------*/
 #sec5{
 	background-image: url(../images/5th_section_background.jpg);
+	position: relative;
+}
+
+#nyutai_button{
+	position: absolute;
+	right:50%;
+	left:50%;
+	bottom: 30%;
+	width:120px;
+	height: 120px;
 }
 
